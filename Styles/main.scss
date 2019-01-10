@@ -7,7 +7,7 @@ body {
 
 h1 {
     margin: 0px;
-    padding: 15px;
+    padding:  20px 0;
     background-color: $zooGreen;
     color: $lightGreen; 
     position: fixed;
@@ -16,6 +16,13 @@ h1 {
     margin-bottom: 10px;
     img{
         float: right;
+    }
+    i{
+        float:right;
+        padding-left: 20px;
+        &:hover {
+            color:white;
+        }
     }
 }
 
@@ -50,3 +57,4 @@ h2{
 }
 
 .space{min-height: 1000px;}
+
