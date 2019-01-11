@@ -23,6 +23,15 @@ h2 {
   margin-top: 120px;
   color: #0c0c0c; }
 
+blockquote {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 10px; }
+
+q {
+  font-weight: bold; }
+
 .container {
   width: 80%;
   margin: 0 auto; }
